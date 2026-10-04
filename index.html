@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Mustagfirin — photography, graphic design, vector illustration and visual content portfolio from Indonesia.">
+  <meta name="theme-color" content="#111111">
+  <title>Muhammad Mustagfirin | Visual Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">MM<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">VISUAL PORTFOLIO • INDONESIA</p>
+        <h1>Muhammad<br><em>Mustagfirin</em></h1>
+        <p class="hero-text">Photography, graphic design, vector illustration and creative visual storytelling inspired by nature, Indonesian culture and everyday life.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#portfolio">View Portfolio</a>
+          <a class="btn btn-outline" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT</p>
+          <h2>Visual stories with a local perspective.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I am a visual content creator and graphic designer from Indonesia with a strong interest in photography, digital artwork and visual storytelling.</p>
+          <p>My work explores landscapes, plants, agriculture, local communities, culture, architecture and creative compositions. I also create vector illustrations, posters, logos and digitally enhanced visuals.</p>
+          <div class="mini-stats">
+            <div><strong>Photography</strong><span>Nature & documentary</span></div>
+            <div><strong>Design</strong><span>Vector & branding</span></div>
+            <div><strong>Editing</strong><span>Creative compositions</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Portfolio</h2>
+          </div>
+          <p class="section-note">A selection of photography, nature, vector artwork and creative design.</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Portfolio filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="photo">Photography</button>
+          <button class="filter" data-filter="nature">Nature</button>
+          <button class="filter" data-filter="vector">Vector</button>
+          <button class="filter" data-filter="design">Design</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid">
+          <article class="work-card" data-category="design vector">
+            <button class="work-image" data-full="foto/Floral Ornament 1(3).jpg" data-title="Floral Ornament" data-description="Decorative floral vector artwork with expressive ornamental lines and botanical forms.">
+              <img src="foto/Floral Ornament 1(3).jpg" alt="Floral ornament vector artwork" loading="lazy">
+            </button>
+            <div class="work-info"><span>Vector</span><h3>Floral Ornament</h3><p>Decorative botanical illustration.</p></div>
+          </article>
+
+          <article class="work-card" data-category="design vector">
+            <button class="work-image" data-full="foto/Buah Anggur(3).jpg" data-title="Grape Illustration" data-description="Bold hand-drawn style grapevine artwork combining rich botanical shapes and strong outlines.">
+              <img src="foto/Buah Anggur(3).jpg" alt="Grape and vine vector illustration" loading="lazy">
+            </button>
+            <div class="work-info"><span>Vector</span><h3>Grape Illustration</h3><p>Botanical line-art composition.</p></div>
+          </article>
+
+          <article class="work-card" data-category="photo">
+            <button class="work-image" data-full="foto/105(4).jpg" data-title="Night Cityscape" data-description="A quiet Indonesian cityscape photographed at dusk, with the moon and city lights creating a calm atmosphere.">
+              <img src="foto/105(4).jpg" alt="Night cityscape with moon" loading="lazy">
+            </button>
+            <div class="work-info"><span>Photography</span><h3>Night Cityscape</h3><p>City lights beneath the evening sky.</p></div>
+          </article>
+
+          <article class="work-card featured" data-category="photo">
+            <button class="work-image" data-full="foto/IMG_0170(2).jpg" data-title="River Rafting" data-description="An energetic river rafting scene showing a group navigating whitewater in a tropical environment.">
+              <img src="foto/IMG_0170(2).jpg" alt="Group rafting on a river" loading="lazy">
+            </button>
+            <div class="work-info"><span>Photography</span><h3>River Rafting</h3><p>Adventure and movement on the river.</p></div>
+          </article>
+
+          <article class="work-card featured" data-category="photo">
+            <button class="work-image" data-full="foto/1988(3).jpg" data-title="Tropical Beach" data-description="Bright tropical seascape with blue water, white surf, sandy shore and a green coastal landscape.">
+              <img src="foto/1988(3).jpg" alt="Tropical beach with blue sea" loading="lazy">
+            </button>
+            <div class="work-info"><span>Photography</span><h3>Tropical Beach</h3><p>Coastal landscape under a bright sky.</p></div>
+          </article>
+
+          <article class="work-card" data-category="nature photo">
+            <button class="work-image" data-full="foto/_DSC0027 (1)(3).jpg" data-title="Forest Canopy" data-description="Tall trees reaching into a bright tropical sky, emphasizing vertical rhythm and natural texture.">
+              <img src="foto/_DSC0027 (1)(3).jpg" alt="Tall trees viewed from below" loading="lazy">
+            </button>
+            <div class="work-info"><span>Nature</span><h3>Forest Canopy</h3><p>Looking upward through tropical trees.</p></div>
+          </article>
+
+          <article class="work-card" data-category="design vector">
+            <button class="work-image" data-full="foto/1(4).jpg" data-title="Abstract Wave" data-description="A modern abstract wave composition using flowing lines and layered visual movement.">
+              <img src="foto/1(4).jpg" alt="Blue abstract wave design" loading="lazy">
+            </button>
+            <div class="work-info"><span>Design</span><h3>Abstract Wave</h3><p>Modern digital abstract artwork.</p></div>
+          </article>
+
+          <article class="work-card featured" data-category="nature photo">
+            <button class="work-image" data-full="foto/IMG20210504094150~2(3).jpg" data-title="Rice Fields" data-description="Terraced rice fields and green countryside create a peaceful agricultural landscape beneath a blue sky.">
+              <img src="foto/IMG20210504094150~2(3).jpg" alt="Indonesian rice fields and hills" loading="lazy">
+            </button>
+            <div class="work-info"><span>Nature</span><h3>Rice Fields</h3><p>Indonesian agricultural landscape.</p></div>
+          </article>
+
+          <article class="work-card" data-category="photo">
+            <button class="work-image" data-full="foto/_DSC0005(3).jpg" data-title="Childhood Moment" data-description="A candid outdoor portrait capturing a quiet everyday moment surrounded by natural greenery.">
+              <img src="foto/_DSC0005(3).jpg" alt="Child outdoors in a green environment" loading="lazy">
+            </button>
+            <div class="work-info"><span>Photography</span><h3>Childhood Moment</h3><p>Candid outdoor photography.</p></div>
+          </article>
+
+          <article class="work-card featured" data-category="design">
+            <button class="work-image" data-full="foto/002A8496(3).jpg" data-title="Floral Event Stage" data-description="Elegant event stage decoration featuring deep green drapery and abundant white floral arrangements.">
+              <img src="foto/002A8496(3).jpg" alt="Elegant floral event stage" loading="lazy">
+            </button>
+            <div class="work-info"><span>Design</span><h3>Floral Event Stage</h3><p>Elegant event visual composition.</p></div>
+          </article>
+
+          <article class="work-card" data-category="design vector nature">
+            <button class="work-image" data-full="foto/Auntum(3).jpg" data-title="Autumn Tree Illustration" data-description="Warm seasonal illustration featuring an ornamental tree, autumn leaves and pumpkins.">
+              <img src="foto/Auntum(3).jpg" alt="Autumn tree and pumpkins illustration" loading="lazy">
+            </button>
+            <div class="work-info"><span>Vector</span><h3>Autumn Tree Illustration</h3><p>Seasonal decorative artwork.</p></div>
+          </article>
+
+          <article class="work-card" data-category="nature photo">
+            <button class="work-image" data-full="foto/20261004_070940(1).jpg" data-title="Pink Garden Flower" data-description="Soft pink flowers photographed in warm natural light, highlighting delicate petals and textured foliage.">
+              <img src="foto/20261004_070940(1).jpg" alt="Pink flowers in natural light" loading="lazy">
+            </button>
+            <div class="work-info"><span>Nature</span><h3>Pink Garden Flower</h3><p>Close-up botanical photography.</p></div>
+          </article>
+
+          <article class="work-card" data-category="nature photo">
+            <button class="work-image" data-full="foto/100(4).jpg" data-title="Dragon Fruit" data-description="A close-up view of a developing dragon fruit growing on a cactus plant in a tropical garden.">
+              <img src="foto/100(4).jpg" alt="Dragon fruit growing on cactus plant" loading="lazy">
+            </button>
+            <div class="work-info"><span>Nature</span><h3>Dragon Fruit</h3><p>Tropical fruit and plant detail.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <p class="eyebrow">CAPABILITIES</p>
+        <h2>Creative Skills</h2>
+        <div class="skills-grid">
+          <div class="skill"><strong>Photography</strong><span>Landscape, nature & documentary</span></div>
+          <div class="skill"><strong>Graphic Design</strong><span>Posters, social media & layouts</span></div>
+          <div class="skill"><strong>Vector Illustration</strong><span>Botanical, ornamental & decorative art</span></div>
+          <div class="skill"><strong>Photo Editing</strong><span>Retouching, color & composition</span></div>
+          <div class="skill"><strong>Branding</strong><span>Logo and visual identity concepts</span></div>
+          <div class="skill"><strong>Visual Storytelling</strong><span>Culture, local life & environments</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's create something visual.</h2>
+          <p>For photography, design, visual content or creative collaboration, feel free to get in touch.</p>
+        </div>
+        <a class="btn btn-light" href="mailto:your-email@example.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Muhammad Mustagfirin</span>
+      <span>Visual Portfolio • Indonesia</span>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-caption">
+        <p class="eyebrow" id="lightboxCategory">PORTFOLIO</p>
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
